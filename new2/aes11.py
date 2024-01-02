@@ -5,7 +5,7 @@ from Crypto import Random
 import base64
 
 def Encrypt(massage):
-    
+    print ("encryp function")
     padding="*"
     block_size=16
     key=Random.new().read(16)
